@@ -1,7 +1,7 @@
 [
   {
     "Prompt": " ",
-    "path" : " ",
+    "path" : "legal",
     "choice_A" : " ",
     "choice_B" : " ",
     "choice fatality": false,
@@ -25,7 +25,7 @@
   },
   {
     "Prompt": " ",
-    "path" : " ",
+    "path" : "illegal",
     "choice_A" : " ",
     "choice_B" : " ",
     "choice fatality": false,

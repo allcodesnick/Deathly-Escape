@@ -13,9 +13,8 @@
         "choice_A" : "Prove",
         "choice_B" : "Blackmail",
         "choice fatality": false,
-       "next Prompt": true,
-       "list of next prompts in path" :
-       [
+        "next Prompt": true,
+        "list of next prompts in path" : [
          {
            "Prompt": " ",
            "path" : "Prove Innocence",
@@ -23,10 +22,78 @@
            "choice_B" : "Lisa the janitor",
            "choice fatality": false,
            "next Prompt": true,
-           "list of next prompts in path" :
-           [
+           "list of next prompts in path" : [
              {
+               "Prompt": " ",
+               "path" : "Get the Pin",
+               "choice_A" : "Break into pin",
+               "choice_B" : "Figure Out the Pin",
+               "choice fatality": false,
+               "next Prompt": true,
+               "list of next prompts in path" : [
+                 {
+                   "Prompt": " ",
+                   "path" : "Break into pin",
+                   "choice_A" : null,
+                   "choice_B" : null,
+                   "choice fatality": true,
+                   "next Prompt": false,
+                   "list of next prompts in path" : [
+                     {
 
+                     }
+                   ]
+                 },
+                 {
+                   "Prompt": " ",
+                   "path" : "Figure Out the Pin",
+                   "choice_A" : null,
+                   "choice_B" : null,
+                   "choice fatality": true,
+                   "next Prompt": false,
+                   "list of next prompts in path" : [
+                     {
+
+                     }
+                   ]
+                 }
+               ]
+             },
+             {
+               "Prompt": " ",
+               "path" : "Lisa the janitor",
+               "choice_A" : "Find Lisa",
+               "choice_B" : "Question the Janitor more",
+               "choice fatality": false,
+               "next Prompt": true,
+               "list of next prompts in path" : [
+                 {
+                   "Prompt": " ",
+                   "path" : "Find Lisa",
+                   "choice_A" : null,
+                   "choice_B" : null,
+                   "choice fatality": false,
+                   "next Prompt": true,
+                   "list of next prompts in path" : [
+                     {
+
+                     }
+                   ]
+                 },
+                 {
+                   "Prompt": " ",
+                   "path" : "Question the Janitor more",
+                   "choice_A" : null,
+                   "choice_B" : null,
+                   "choice fatality": false,
+                   "next Prompt": true,
+                   "list of next prompts in path" : [
+                     {
+
+                     }
+                   ]
+                 }
+               ]
              }
            ]
          },
@@ -37,8 +104,7 @@
            "choice_B" : "Innocent Lawyer",
            "choice fatality": false,
            "next Prompt": true,
-           "list of next prompts in path" :
-           [
+           "list of next prompts in path" : [
              {
 
              }
@@ -52,8 +118,8 @@
         "choice_A" : "Dig",
         "choice_B" : "Escape",
         "choice fatality": false,
-       "next Prompt": true,
-       "list of next prompts in path" : [
+        "next Prompt": true,
+        "list of next prompts in path" : [
           {
 
 

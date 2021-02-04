@@ -4377,7 +4377,7 @@ def legal_illegal():
             print("You chose the legal route.")
             conscious += 50
             s()
-            legal_blackmail_prove()
+
             break
 
         elif choice == "b":

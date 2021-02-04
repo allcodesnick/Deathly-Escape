@@ -1,44 +1,59 @@
 [
   {
-    "Prompt": " ",
-    "path" : "legal",
-    "choice_A" : " ",
-    "choice_B" : " ",
+    "Prompt": "",
+    "path" : "legal_Illegal",
+    "choice_A" : "legal",
+    "choice_B" : "Illegal ",
     "choice fatality": false,
-    "next Prompt": false,
-    "prompts in path" : [
+    "next Prompt": true,
+    "list of next prompts in path" : [
       {
         "Prompt": " ",
-        "path" : " ",
-        "choice_A" : " ",
-        "choice_B" : " ",
+        "path" : "legal",
+        "choice_A" : "Prove",
+        "choice_B" : "Blackmail",
         "choice fatality": false,
-       "next Prompt": false,
-       "prompts in path" : [
-          {
+       "next Prompt": true,
+       "list of next prompts in path" :
+       [
+         {
+           "Prompt": " ",
+           "path" : "Prove Innocence",
+           "choice_A" : "Get the Pin",
+           "choice_B" : "Lisa the janitor",
+           "choice fatality": false,
+           "next Prompt": true,
+           "list of next prompts in path" :
+           [
+             {
 
+             }
+           ]
+         },
+         {
+           "Prompt": " ",
+           "path" : "Blackmail",
+           "choice_A" : "Dirty Lawyer",
+           "choice_B" : "Innocent Lawyer",
+           "choice fatality": false,
+           "next Prompt": true,
+           "list of next prompts in path" :
+           [
+             {
 
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Prompt": " ",
-    "path" : "illegal",
-    "choice_A" : " ",
-    "choice_B" : " ",
-    "choice fatality": false,
-    "next Prompt": false,
-    "prompts in path" : [
+             }
+           ]
+         }
+       ]
+      },
       {
         "Prompt": " ",
-        "path" : " ",
-        "choice_A" : " ",
-        "choice_B" : " ",
+        "path" : "illegal",
+        "choice_A" : "Dig",
+        "choice_B" : "Escape",
         "choice fatality": false,
-       "next Prompt": false,
-       "prompts in path" : [
+       "next Prompt": true,
+       "list of next prompts in path" : [
           {
 
 

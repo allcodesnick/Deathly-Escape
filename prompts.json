@@ -1,0 +1,16 @@
+[
+  {
+    "path" : " ",
+    "choice_A" : " ",
+    "choice_B" : " ",
+    "next Prompt" : false,
+    "choice fatality": false
+  },
+  {
+    "path" : " ",
+    "choice_A" : " ",
+    "choice_B" : " ",
+    "next Prompt": false,
+    "choice fatality": false
+  }
+]

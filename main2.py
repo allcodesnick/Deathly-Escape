@@ -26,12 +26,6 @@ s()
 
 
 def intro():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     print("Your character's name is: " + character_name)
     print("***********     Story   ***********")
     print(character_name + " was convicted of murder and sentenced to the death penalty.")
@@ -46,12 +40,6 @@ intro()
 
 
 def end():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     s()
     print("***********     Game Over   ***********")
     print(character_name + " has done it and avoided death!!!")
@@ -60,12 +48,6 @@ def end():
 
 
 def dirty_lawyer_CPI():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Help"
     b = "Dont Help"
     while True:
@@ -85,12 +67,6 @@ def dirty_lawyer_CPI():
 
 
 def dirty_lawyer_EPI():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Investigate Case"
     b = "Do Nothing"
     while True:
@@ -99,8 +75,6 @@ def dirty_lawyer_EPI():
         if choice == "a":
             print(
                 "*******The PI and Lawyer working together have found an error in your case enough to get you free!!! Youve done it!!*******")
-            finesse += 100
-            money -= 200000
             end()
             break
         elif choice == "b":
@@ -113,11 +87,6 @@ def dirty_lawyer_EPI():
 
 
 def dirty_lawyer_PI():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
     time.sleep(1.5)
     a = "Expensive PI"
     b = "Cheap PI"
@@ -126,15 +95,11 @@ def dirty_lawyer_PI():
             "You want to hire a PI(private investigator) but its gonna cost you! Do you wanna pay for the Expensive Private investigator or a Cheap Private investigator? (A) Expensive PI or (B) Cheap PI: ")
         if choice == "a":
             print("You chose the Expensive Private investigator route.")
-            money -= 100000
-            warning += 20
             s()
             dirty_lawyer_EPI()
             break
         elif choice == "b":
             print("You chose the Cheap Private investigator route.")
-            money -= 10000
-            warning -= 20
             s()
             dirty_lawyer_CPI()
             break
@@ -143,12 +108,6 @@ def dirty_lawyer_PI():
 
 
 def innocent_lawyer_fake_photo_friend():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Expose the Judge"
     b = "Threaten the Judge"
     while True:
@@ -157,9 +116,6 @@ def innocent_lawyer_fake_photo_friend():
         if choice == "a":
             print(
                 "You chose to expose the Judge and the state has chosen to look over your case and they found you and plenty of others innocent. Your a free man!!!!")
-            conscious += 1000
-            finesse += 100
-            money -= 200000
             end()
             break
         elif choice == "b":
@@ -172,12 +128,6 @@ def innocent_lawyer_fake_photo_friend():
 
 
 def innocent_lawyer_fake_photo():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Friend"
     b = "Stranger"
     while True:
@@ -185,8 +135,6 @@ def innocent_lawyer_fake_photo():
         if choice == "a":
             print(
                 "You chose your friend. Your friend was successful. She faked a picture of the good lawyer kissing her. You threaten to show his wife and he takes your case.")
-            conscious -= 10
-            money -= 20000
             s()
             innocent_lawyer_fake_photo_friend()
             break
@@ -201,12 +149,6 @@ def innocent_lawyer_fake_photo():
 
 
 def innocent_lawyer_stripper_confront():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Tell"
     b = "Death Sentence"
     while True:
@@ -227,11 +169,6 @@ def innocent_lawyer_stripper_confront():
 
 
 def innocent_lawyer_stripper():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
     time.sleep(1.5)
     a = "Tell"
     b = "Confront"
@@ -246,8 +183,7 @@ def innocent_lawyer_stripper():
         elif choice == "b":
             print(
                 "You chose the Make the stripper confront him. Hes gonna take your case!! You an evil one " + character_name + ".")
-            conscious -= 100
-            money -= 200000
+
             innocent_lawyer_stripper_confront()
             break
         else:
@@ -255,12 +191,6 @@ def innocent_lawyer_stripper():
 
 
 def blackmail_dirty_lawyer():
-    global warning
-    global conscious
-    global stealth
-    global finesse
-    global money
-    time.sleep(1.5)
     a = "Hire P.I"
     b = "Threaten"
     while True:
@@ -268,8 +198,6 @@ def blackmail_dirty_lawyer():
             "Now that Youve choose the dirty lawyer ow are you gonna do it?\n(A) Hire private investigatior or (B) Threaten to expose: ")
         if choice == "a":
             print("You chose the Hire P.I. Good lets get our hands dirty")
-            finesse += 70
-            conscious += 100
             s()
             dirty_lawyer_PI()
             break

@@ -1,16 +1,50 @@
 [
   {
+    "Prompt": " ",
     "path" : " ",
     "choice_A" : " ",
     "choice_B" : " ",
-    "next Prompt" : false,
-    "choice fatality": false
+    "choice fatality": false,
+    "next Prompt": false,
+    "prompts in path" : [
+      {
+        "Prompt": " ",
+        "path" : " ",
+        "choice_A" : " ",
+        "choice_B" : " ",
+        "choice fatality": false,
+       "next Prompt": false,
+       "prompts in path" : [
+          {
+
+
+          }
+        ]
+      }
+    ]
   },
   {
+    "Prompt": " ",
     "path" : " ",
     "choice_A" : " ",
     "choice_B" : " ",
+    "choice fatality": false,
     "next Prompt": false,
-    "choice fatality": false
+    "prompts in path" : [
+      {
+        "Prompt": " ",
+        "path" : " ",
+        "choice_A" : " ",
+        "choice_B" : " ",
+        "choice fatality": false,
+       "next Prompt": false,
+       "prompts in path" : [
+          {
+
+
+          }
+        ]
+      }
+    ]
   }
 ]

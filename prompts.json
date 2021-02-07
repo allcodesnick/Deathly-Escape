@@ -69,29 +69,97 @@
                "list of next prompts in path" : [
                  {
                    "Prompt": " ",
-                   "path" : "Find Lisa",
-                   "choice_A" : null,
-                   "choice_B" : null,
+                   "path" : "Getting Pin",
+                   "choice_A" : "Fix Flat",
+                   "choice_B" : "Call Office",
                    "choice fatality": false,
                    "next Prompt": true,
                    "list of next prompts in path" : [
                      {
-
+                       "Prompt": "Game Over",
+                       "path" : "Fix Flat",
+                       "choice_A" : null,
+                       "choice_B" : null,
+                       "choice fatality": true,
+                       "next Prompt": false,
+                       "list of next prompts in path" : null
+                     },
+                     {
+                       "Prompt": " ",
+                       "path" : "Call Office",
+                       "choice_A" : "Meet the mysterious person",
+                       "choice_B" : "Ignore the note",
+                       "choice fatality": false,
+                       "next Prompt": true,
+                       "list of next prompts in path" : [
+                         {
+                           "Prompt": " ",
+                           "path" : "Meet the mysterious person",
+                           "choice_A" : "Drop this m.fuc*er",
+                           "choice_B" : "Keep your cool",
+                           "choice fatality": false,
+                           "next Prompt": true,
+                           "list of next prompts in path" : [
+                             {
+                               "Prompt": "Game Over",
+                               "path" : "Drop this m.fuc*er",
+                               "choice_A" : null,
+                               "choice_B" : null,
+                               "choice fatality": true,
+                               "next Prompt": false,
+                               "list of next prompts in path" : null
+                             },
+                             {
+                               "Prompt": " ",
+                               "path" : "Keep your cool",
+                               "choice_A" : "Bring the janitor in as the killer",
+                               "choice_B" : "Find out more information",
+                               "choice fatality": false,
+                               "next Prompt": false,
+                               "list of next prompts in path" : [
+                                 {
+                                   "Prompt": "Game Over",
+                                   "path" : "Bring the janitor in as the killer",
+                                   "choice_A" : null,
+                                   "choice_B" : null,
+                                   "choice fatality": true,
+                                   "next Prompt": false,
+                                   "list of next prompts in path" : null
+                                 },
+                                 {
+                                   "Prompt": "Congrats Game path completed ",
+                                   "path" : "Find out more information",
+                                   "choice_A" : null,
+                                   "choice_B" : null,
+                                   "choice fatality": false,
+                                   "next Prompt": false,
+                                   "list of next prompts in path" : null
+                                 }
+                               ]
+                             }
+                           ]
+                         },
+                         {
+                           "Prompt": "Game Over",
+                           "path" : "Ignore the note",
+                           "choice_A" : null,
+                           "choice_B" : null,
+                           "choice fatality": true,
+                           "next Prompt": false,
+                           "list of next prompts in path" : null
+                         }
+                       ]
                      }
                    ]
                  },
                  {
-                   "Prompt": " ",
+                   "Prompt": "Game Over",
                    "path" : "Question the Janitor more",
                    "choice_A" : null,
                    "choice_B" : null,
-                   "choice fatality": false,
-                   "next Prompt": true,
-                   "list of next prompts in path" : [
-                     {
-
-                     }
-                   ]
+                   "choice fatality": true,
+                   "next Prompt": false,
+                   "list of next prompts in path" : null
                  }
                ]
              }
@@ -119,12 +187,7 @@
         "choice_B" : "Escape",
         "choice fatality": false,
         "next Prompt": true,
-        "list of next prompts in path" : [
-          {
-
-
-          }
-        ]
+        "list of next prompts in path" : null
       }
     ]
   }

@@ -174,8 +174,61 @@
            "next Prompt": true,
            "list of next prompts in path" : [
              {
-
-             }
+              "Prompt": " ",
+              "path" : "Dirty Lawyer",
+              "choice_A" : "Hire Private Investigator",
+              "choice_B" : "Threaten",
+              "choice fatality": false,
+              "next Prompt": true,
+              "list of next prompts in path" : [
+                {
+                  "Prompt": " ",
+                  "path" : "Hire Private Investigator",
+                  "choice_A" : "Expensive Private Investigator",
+                  "choice_B" : "Cheap Private Investigator",
+                  "choice fatality": false,
+                  "next Prompt": true,
+                  "list of next prompts in path" : [
+                    {
+                      "Prompt": " ",
+                      "path" : "Expensive Private Investigator",
+                      "choice_A" : "Investigate Case",
+                      "choice_B" : "Do Nothing",
+                      "choice fatality": false,
+                      "next Prompt": true,
+                      "list of next prompts in path" : null
+                    },
+                    {
+                      "Prompt": " ",
+                      "path" : "Cheap Private Investigator",
+                      "choice_A" : "Help",
+                      "choice_B" : "Don't Help",
+                      "choice fatality": false,
+                      "next Prompt": true,
+                      "list of next prompts in path" : null
+                    }
+                  ]
+                },
+                {
+                  "Prompt": "Game Over",
+                  "path" : "Threaten",
+                  "choice_A" : null,
+                  "choice_B" : null,
+                  "choice fatality": true,
+                  "next Prompt": false,
+                  "list of next prompts in path" : null
+                }
+              ]
+            },
+             {
+              "Prompt": " ",
+              "path" : "Innocent Lawyer",
+              "choice_A" : "Hire a Stripper",
+              "choice_B" : "Fake a Photo",
+              "choice fatality": false,
+              "next Prompt": true,
+              "list of next prompts in path" : null
+            }
            ]
          }
        ]
@@ -192,3 +245,28 @@
     ]
   }
 ]
+
+
+
+
+
+
+
+{
+  "Prompt": " ",
+  "path" : " ",
+  "choice_A" : null,
+  "choice_B" : null,
+  "choice fatality": false,
+  "next Prompt": true,
+  "list of next prompts in path" : null
+},
+{
+  "Prompt": " ",
+  "path" : " ",
+  "choice_A" : null,
+  "choice_B" : null,
+  "choice fatality": false,
+  "next Prompt": true,
+  "list of next prompts in path" : null
+}

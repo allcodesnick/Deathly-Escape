@@ -127,11 +127,11 @@
                                    "list of next prompts in path" : null
                                  },
                                  {
-                                   "Prompt": "Congrats Game path completed ",
+                                   "Prompt": "Congrats Game path completed",
                                    "path" : "Find out more information",
                                    "choice_A" : null,
                                    "choice_B" : null,
-                                   "choice fatality": false,
+                                   "choice fatality": true,
                                    "next Prompt": false,
                                    "list of next prompts in path" : null
                                  }
@@ -196,7 +196,26 @@
                       "choice_B" : "Do Nothing",
                       "choice fatality": false,
                       "next Prompt": true,
-                      "list of next prompts in path" : null
+                      "list of next prompts in path" : [
+                        {
+                          "Prompt": "Congrats Game path completed",
+                          "path" : "Investigate Case",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": false,
+                          "next Prompt": false,
+                          "list of next prompts in path" : null
+                        },
+                        {
+                          "Prompt": "Game Over",
+                          "path" : "Do Nothing",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": true,
+                          "next Prompt": false,
+                          "list of next prompts in path" : null
+                        }
+                      ]
                     },
                     {
                       "Prompt": " ",
@@ -205,7 +224,36 @@
                       "choice_B" : "Don't Help",
                       "choice fatality": false,
                       "next Prompt": true,
-                      "list of next prompts in path" : null
+                      "list of next prompts in path" : [
+                        {
+                          "Prompt": " ",
+                          "path" : "Help",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": true,
+                          "next Prompt": false,
+                          "list of next prompts in path" : null
+                        },
+                        {
+                          "Prompt": " ",
+                          "path": "Don't Help",
+                          "choice_A": null,
+                          "choice_B": null,
+                          "choice fatality": false,
+                          "next Prompt": true,
+                          "list of next prompts in path": [
+                            {
+                              "Prompt": " ",
+                              "path": "Expensive Private Investigator",
+                              "choice_A": "Investigate Case",
+                              "choice_B": "Do Nothing",
+                              "choice fatality": false,
+                              "next Prompt": true,
+                              "list of next prompts in path": null
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 },

@@ -237,7 +237,7 @@
                         {
                           "Prompt": " ",
                           "path": "Don't Help",
-                          "choice_A": null,
+                          "choice_A": "Expensive Private Investigator",
                           "choice_B": null,
                           "choice fatality": false,
                           "next Prompt": true,
@@ -249,7 +249,36 @@
                               "choice_B": "Do Nothing",
                               "choice fatality": false,
                               "next Prompt": true,
-                              "list of next prompts in path": null
+                              "list of next prompts in path": [
+                                {
+                                  "Prompt": " ",
+                                  "path" : "Expensive Private Investigator",
+                                  "choice_A" : "Investigate Case",
+                                  "choice_B" : "Do Nothing",
+                                  "choice fatality": false,
+                                  "next Prompt": true,
+                                  "list of next prompts in path" : [
+                                    {
+                                      "Prompt": "Congrats Game path completed",
+                                      "path" : "Investigate Case",
+                                      "choice_A" : null,
+                                      "choice_B" : null,
+                                      "choice fatality": false,
+                                      "next Prompt": false,
+                                      "list of next prompts in path" : null
+                                    },
+                                    {
+                                      "Prompt": "Game Over",
+                                      "path" : "Do Nothing",
+                                      "choice_A" : null,
+                                      "choice_B" : null,
+                                      "choice fatality": true,
+                                      "next Prompt": false,
+                                      "list of next prompts in path" : null
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         }
@@ -275,7 +304,102 @@
               "choice_B" : "Fake a Photo",
               "choice fatality": false,
               "next Prompt": true,
-              "list of next prompts in path" : null
+              "list of next prompts in path" : [
+                {
+                  "Prompt": " ",
+                  "path" : "Hire a Stripper",
+                  "choice_A" : "Tell",
+                  "choice_B" : "Confront",
+                  "choice fatality": false,
+                  "next Prompt": true,
+                  "list of next prompts in path" : [
+                    {
+                      "Prompt": "Game Over",
+                      "path" : "Tell",
+                      "choice_A" : null,
+                      "choice_B" : null,
+                      "choice fatality": true,
+                      "next Prompt": false,
+                      "list of next prompts in path" : null
+                    },
+                    {
+                      "Prompt": " ",
+                      "path" : "Confront",
+                      "choice_A" : "Tell",
+                      "choice_B" : "Death Sentence",
+                      "choice fatality": false,
+                      "next Prompt": true,
+                      "list of next prompts in path" : [
+                        {
+                          "Prompt": "Game Over",
+                          "path" : "Tell",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": true,
+                          "next Prompt": false,
+                          "list of next prompts in path" : null
+                        },
+                        {
+                          "Prompt": "Game Over",
+                          "path" : "Death Sentence",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": false,
+                          "next Prompt": true,
+                          "list of next prompts in path" : null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Prompt": " ",
+                  "path" : "Fake a Photo",
+                  "choice_A" : "Friend",
+                  "choice_B" : "Stranger",
+                  "choice fatality": false,
+                  "next Prompt": true,
+                  "list of next prompts in path" : [
+                    {
+                      "Prompt": " ",
+                      "path" : "Friend",
+                      "choice_A" : "Expose the Judge",
+                      "choice_B" : "Threaten the Judge",
+                      "choice fatality": false,
+                      "next Prompt": true,
+                      "list of next prompts in path" : [
+                        {
+                          "Prompt": "Congrats Game path completed",
+                          "path" : "Expose the Judge",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": false,
+                          "next Prompt": true,
+                          "list of next prompts in path" : null
+                        },
+                        {
+                          "Prompt": " ",
+                          "path" : "Threaten the Judge",
+                          "choice_A" : null,
+                          "choice_B" : null,
+                          "choice fatality": true,
+                          "next Prompt": false,
+                          "list of next prompts in path" : null
+                        }
+                      ]
+                    },
+                    {
+                      "Prompt": "Game Over",
+                      "path" : "Stranger",
+                      "choice_A" : null,
+                      "choice_B" : null,
+                      "choice fatality": true,
+                      "next Prompt": false,
+                      "list of next prompts in path" : null
+                    }
+                  ]
+                }
+              ]
             }
            ]
          }
@@ -288,7 +412,169 @@
         "choice_B" : "Escape",
         "choice fatality": false,
         "next Prompt": true,
-        "list of next prompts in path" : null
+        "list of next prompts in path" : [
+          {
+            "Prompt": " ",
+            "path" : "Dig",
+            "choice_A" : "Dig using a spoon",
+            "choice_B" : "Dig using a knife",
+            "choice fatality": false,
+            "next Prompt": true,
+            "list of next prompts in path" : [
+              {
+                "Prompt": " ",
+                "path" : "Dig using a spoon",
+                "choice_A" : "Spoon",
+                "choice_B" : null,
+                "choice fatality": false,
+                "next Prompt": true,
+                "list of next prompts in path" : [
+                  {
+                    "Prompt": " ",
+                    "path" : "Spoon",
+                    "choice_A" : "Dig Back of the Toilet",
+                    "choice_B" : "Dig Back of the Bed",
+                    "choice fatality": false,
+                    "next Prompt": true,
+                    "list of next prompts in path" : [
+                      {
+                        "Prompt": " ",
+                        "path" : "Dig Back of the Toilet",
+                        "choice_A" : "Tired",
+                        "choice_B" : "Spoon is Weak",
+                        "choice fatality": false,
+                        "next Prompt": true,
+                        "list of next prompts in path" : null
+                      },
+                      {
+                        "Prompt": " ",
+                        "path" : "Dig Back of the Bed",
+                        "choice_A" : "Smelling Very Bad",
+                        "choice_B" : "Spoon is Weak",
+                        "choice fatality": false,
+                        "next Prompt": true,
+                        "list of next prompts in path" : null
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Prompt": " ",
+                "path" : "Dig using a knife",
+                "choice_A" : "Doctors Office",
+                "choice_B" : "Sneak in to the Kitchen",
+                "choice fatality": false,
+                "next Prompt": true,
+                "list of next prompts in path" : null
+              }
+            ]
+          },
+          {
+            "Prompt": " ",
+            "path" : "Escape",
+            "choice_A" : "Kill",
+            "choice_B" : "Knock",
+            "choice fatality": false,
+            "next Prompt": true,
+            "list of next prompts in path" : [
+              {
+                "Prompt": "Game Over",
+                "path" : "Kill",
+                "choice_A" : null,
+                "choice_B" : null,
+                "choice fatality": true,
+                "next Prompt": false,
+                "list of next prompts in path" : null
+              },
+              {
+                "Prompt": " ",
+                "path" : "Knock",
+                "choice_A" : "Red Door",
+                "choice_B" : "Blue Door",
+                "choice fatality": false,
+                "next Prompt": true,
+                "list of next prompts in path" : [
+                  {
+                    "Prompt": "Congrats Game path completed",
+                    "path" : "Red Door",
+                    "choice_A" : null,
+                    "choice_B" : null,
+                    "choice fatality": false,
+                    "next Prompt": true,
+                    "list of next prompts in path" : null
+                  },
+                  {
+                    "Prompt": " ",
+                    "path" : "Blue Door",
+                    "choice_A" : "Spoon",
+                    "choice_B" : "Knife",
+                    "choice fatality": false,
+                    "next Prompt": true,
+                    "list of next prompts in path" : [
+                      {
+                        "Prompt": " ",
+                        "path" : "Spoon",
+                        "choice_A" : "Spearing",
+                        "choice_B" : "Self-distraction",
+                        "choice fatality": false,
+                        "next Prompt": true,
+                        "list of next prompts in path" : [
+                          {
+                            "Prompt": "Game Over",
+                            "path" : "Spearing",
+                            "choice_A" : null,
+                            "choice_B" : null,
+                            "choice fatality": true,
+                            "next Prompt": false,
+                            "list of next prompts in path" : null
+                          },
+                          {
+                            "Prompt": " ",
+                            "path" : "Self-distraction",
+                            "choice_A" : "Fight",
+                            "choice_B" : "Flee",
+                            "choice fatality": false,
+                            "next Prompt": true,
+                            "list of next prompts in path" : [
+                              {
+                                "Prompt": "Game Over",
+                                "path" : "Fight",
+                                "choice_A" : null,
+                                "choice_B" : null,
+                                "choice fatality": true,
+                                "next Prompt": false,
+                                "list of next prompts in path" : null
+                              },
+                              {
+                                "Prompt": "Game Over",
+                                "path" : "Flee",
+                                "choice_A" : null,
+                                "choice_B" : null,
+                                "choice fatality": true,
+                                "next Prompt": false,
+                                "list of next prompts in path" : null
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "Prompt": "Congrats Game path completed",
+                        "path" : "Knife",
+                        "choice_A" : null,
+                        "choice_B" : null,
+                        "choice fatality": false,
+                        "next Prompt": false,
+                        "list of next prompts in path" : null
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   }

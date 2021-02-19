@@ -1,5 +1,6 @@
-[
-  {
+{
+  "Prompts": [
+    {
     "Prompt": "",
     "path" : "legal_Illegal",
     "choice_A" : "legal",
@@ -578,10 +579,8 @@
       }
     ]
   }
-]
-
-
-
+  ]
+}
 
 
 
